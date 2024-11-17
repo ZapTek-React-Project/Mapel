@@ -13,6 +13,7 @@ const Home = () => {
         alt="bg-pic"
         className="absolute top-0 right-0 left-0 h-full w-full -z-10 brightness-50"
       />
+      
       <div className="text-discover text-white h-[90vh] flex flex-col items-center justify-center gap-10">
         <h2 className="text-6xl text-center font-serif">
           Discover wonderful homes <br /> that match your lifestyle
