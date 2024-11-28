@@ -1,6 +1,8 @@
 
 body {
-  font-family: "GeneralSans", sans-serif;
+  overflow-x: hidden;
+  
+
 }
 /* section {
   width: 95%;

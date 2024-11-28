@@ -9,9 +9,14 @@ export default {
       lg: "1080px",
     },
     extend: {
+      fontSize:{
+      "customsize": '16px',
+    },
       colors: {
         "--background": "#f0eadd",
-        '--body': '#333'
+        '--body': '#333',
+        customcolour: '#a6a56f',
+        custompink: '#fad7d4',
       },
     },
   },
