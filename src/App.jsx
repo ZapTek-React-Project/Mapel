@@ -5,6 +5,8 @@ import Properties from "./pages/Properties";
 import Categories from "./pages/Categories";
 import Blogs from "./pages/Blogs";
 import Services from "./pages/Services";
+import "./App.css";
+import "./fonts.css";
 
 const router = createBrowserRouter([
   {

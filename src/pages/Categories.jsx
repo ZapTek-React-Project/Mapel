@@ -1,12 +1,13 @@
-import React from "react";
 import MainHeader from "../components/MainHeader";
 
-const Categories = () => {
+const Properties = () => {
   return (
-    <div>
-      <MainHeader />
-    </div>
+    <>
+      <nav>
+        <MainHeader />
+      </nav>
+    </>
   );
 };
 
-export default Categories;
+export default Properties;
