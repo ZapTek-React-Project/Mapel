@@ -102,11 +102,11 @@ export const Carousel = () => {
                 }}
               >
                 <div>
-                <div className="flex flex-col gap-3 lg:flex-row ">
+                <div className="flex flex-col gap-3 lg:flex-row border ">
                   <img
                     src={card.src}
                     alt={card.title}
-                    className="w-36 h-44 lg:w-96 lg:h-96"
+                    className="h-[100] border lg:w-1/3"
                   />
                   <div className="border border-gray-400 p-4 lg:p-10">
                     <p className="text-xl font-medium lg:text-2xl ">{card.topic}</p>

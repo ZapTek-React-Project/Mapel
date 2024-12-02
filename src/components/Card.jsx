@@ -7,7 +7,7 @@ export default function Card({image,button,description,cost}) {
       <div className='w-full'>
         {image}
       </div>
-      <span className='absolute top-4 right-24 bg-white text-gray-800 text-xs font-normal px-3 py-1 border '>
+      <span className='absolute top-4 right-4 bg-white text-gray-800 text-xs font-normal px-3 py-1 border '>
         {button}
       </span>
       </div>

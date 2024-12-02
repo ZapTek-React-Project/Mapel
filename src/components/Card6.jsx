@@ -3,10 +3,10 @@ import { NextButton } from "../components/Buttons";
 
 function Card6({date,Description,image,description}) {
   return (
-    <div className='bg- -bg--background mx-3 my-7'>
+    <div className='bg- -bg--background '>
       <a href='#blogs'>
-      <div className='py-2 px-5'>
-        <div className='border w-1/3 p-1 bg-white text-black mt-3 lg:border lg:w-1/4'>
+      <div className='p-5 flex flex-col gap-3'>
+        <div className='border w-1/3 text-sm bg-white text-black mt-3'>
             {date}
         </div>
         <div className='lg:text-xl py-4'>
@@ -18,7 +18,7 @@ function Card6({date,Description,image,description}) {
         <div className='pt-2 text-gray-700 '>
             {description}
         </div>
-        <div className="ml-2 pt-[40px] pb-[50px]">
+        <div className="">
             <NextButton
               text={"Read Articles"}
               iconBlack={"/670d0c44934a34fca868597d_black-arrow.svg"}
