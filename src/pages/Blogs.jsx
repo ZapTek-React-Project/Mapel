@@ -7,25 +7,27 @@ const Blogs = () => {
   return (
     <div>
       <MainHeader />
-      <div className="title">
-        <div>
-          <img src="/Servicesimages/homepic.svg" width={18} height={20} />
+      <div className="main px-20 py-10">
+        <div className="flex gap-5 ">
+          <div>
+            <img src="/Servicesimages/homepic.svg" width={18} height={20} />
+          </div>
+          <p>OUR BLOGS</p>
         </div>
-        <div>OUR BLOGS</div>
-      </div>
-      <div className="latest">
-        <h1>Latest Articles</h1>
-      </div>
-      <div>
-        <Blog />
-        <div className="next-btn">
-          <h3>Next</h3>
-          <div className="arrow-button-wrap">
-            <img
-              alt="Arrow"
-              src="/Blogimages/black-arrow.svg"
-              class="arrow-button"
-            />
+        <div className="text-2xl">
+          <h1>Latest Articles</h1>
+        </div>
+        <div>
+          <Blog />
+          <div className="">
+            <h3>Next</h3>
+            <div className="">
+              <img
+                alt="Arrow"
+                src="/Blogimages/black-arrow.svg"
+                class=""
+              />
+            </div>
           </div>
         </div>
       </div>

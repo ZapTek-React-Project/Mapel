@@ -8,14 +8,9 @@ const Services = () => {
   return (
     <div>
       <MainHeader />
-      <div className="sub-title">
-        <div>
-          <img src="/Servicesimages/homepic.svg" width={18} height={20} />
-        </div>
-        <div>WHAT WE DO</div>
-      </div>
+
       <h1 className="sub">Our Services</h1>
-      <ServiceLayout />
+      {/* <ServiceLayout /> */}
       <Testimonial />
       <FAQ />
     </div>

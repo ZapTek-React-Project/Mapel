@@ -3,8 +3,8 @@ import "/src/pages/Blog.css";
 const Blog = () => {
   return (
     <div>
-      <div className="outer-container">
-        <div className="blog-container">
+      <div className="">
+        <div className="">
           <div className="blog-box">
             <div className="content-heading">
               <div className="date"> Oct 15,2024</div>

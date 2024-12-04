@@ -1,37 +1,36 @@
 import React from "react";
 import "/src/pages/Services.css";
 
-import { Link } from "react-router-dom";
 const ServiceLayout = () => {
   return (
-    <div className="Services">
-      <div className="card-layout">
-        <div className="card">
-          <div className="image-container">
+    <div className="">
+      <div className="px-20 grid grid-cols-3 gap-5">
+        <div className="">
+          <div className="">
             <img
               src="/Servicesimages/newconstruction.svg"
               alt="construction icon"
-              className="icon"
+              className=""
             />
             <img
               src="/Servicesimages/constructionactual.jpg"
               alt="construction image"
-              className="main"
+              className=""
             />
             <div className="content">
               <h3>New Construction</h3>
               <div className="view">
                 <div> View Service</div>
-                <div className="arrow-button-wrap">
+                <div className="">
                   <img
                     alt="Arrow"
                     src="/Servicesimages/arrow.svg"
-                    class="arrow-button"
+                    class=""
                   />
                   <img
                     alt="Arrow"
                     src="/Servicesimages/arrow.svg"
-                    class="hover-arrow"
+                    class=""
                   />
                 </div>
               </div>
@@ -49,7 +48,7 @@ const ServiceLayout = () => {
               <img
                 src="/Servicesimages/commercialactual.jpg"
                 alt="commercial image"
-                className="main"
+                className=""
               />
               <div className="content">
                 <h3>Commercial Real Estate</h3>
@@ -59,12 +58,12 @@ const ServiceLayout = () => {
                     <img
                       alt="Arrow"
                       src="/Servicesimages/arrow.svg"
-                      class="arrow-button"
+                      class=""
                     />
                     <img
                       alt="Arrow"
                       src="/Servicesimages/arrow.svg"
-                      class="hover-arrow"
+                      class=""
                     />
                   </div>
                 </div>
@@ -72,33 +71,33 @@ const ServiceLayout = () => {
             </div>
           </div>
         </div>
-        <div className="second-card">
-          <div className="card">
-            <div className="image-container">
+        <div className="">
+          <div className="">
+            <div className="">
               <img
                 src="/Servicesimages/relocationicon.svg"
                 alt="relocation icon"
-                className="icon"
+                className=""
               />
               <img
                 src="/Servicesimages/relocationactual.jpg"
                 alt="relocation image"
-                className="main"
+                className=""
               />
-              <div className="content">
+              <div className="">
                 <h3>Relocation Services</h3>
-                <div className="view">
+                <div className="">
                   <div> View Service</div>
-                  <div className="arrow-button-wrap">
+                  <div className="">
                     <img
                       alt="Arrow"
                       src="/Servicesimages/arrow.svg"
-                      class="arrow-button"
+                      class=""
                     />
                     <img
                       alt="Arrow"
                       src="/Servicesimages/arrow.svg"
-                      class="hover-arrow"
+                      class=""
                     />
                   </div>
                 </div>
@@ -106,23 +105,22 @@ const ServiceLayout = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="second-section">
-        <div className="second-card">
-          <div className="image-container">
+
+        <div className="">
+          <div className="">
             <img
               src="/Servicesimages/interioricon.svg"
               alt="interior icon"
-              className="icon"
+              className=""
             />
             <img
               src="/Servicesimages/interioractual.jpg"
               alt="interior image"
-              className="main"
+              className=""
             />
-            <div className="content">
+            <div className="">
               <h3>Interior Design</h3>
-              <div className="view">
+              <div className="">
                 <div> View Service</div>
                 <div className="arrow-button-wrap">
                   <img
